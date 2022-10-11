@@ -1,0 +1,27 @@
+Source: libmock-sub-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libscalar-list-utils-perl <!nocheck>,
+                     libtest-simple-perl <!nocheck>,
+                     perl
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libmock-sub-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libmock-sub-perl.git
+Homepage: https://metacpan.org/release/Mock-Sub
+Rules-Requires-Root: no
+
+Package: libmock-sub-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libscalar-list-utils-perl
+Description: module to mock subroutines for unit testing
+ Mock::Sub is an easy to use and very lightweight module for mocking out sub
+ calls. It is useful for testing areas of your own modules where getting
+ coverage may be difficult due to nothing to test against, and/or to reduce
+ test run time by eliminating the need to call subs that you really don't want
+ or need to test.
