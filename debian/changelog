@@ -1,8 +1,12 @@
-libmock-sub-perl (1.09-2+u001) UNRELEASED; urgency=medium
+libmock-sub-perl (1.09-2deepin) unstable; urgency=medium
 
+  [ Debian Perl Group ]
   * update
 
- -- Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>  Wed, 25 May 2022 11:03:22 +0800
+  [ Yutao Meng ]
+  * Regulate version name
+
+ -- Yutao Meng <mengyutao@uniontech.com>  Tue, 21 Mar 2023 10:40:04 +0800
 
 libmock-sub-perl (1.09-2) unstable; urgency=medium
 
